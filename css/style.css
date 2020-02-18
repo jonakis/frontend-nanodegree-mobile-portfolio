@@ -22,7 +22,7 @@ textarea {
 .author-header {
   background-color: rgb(49, 48, 48);
   color: rgb(182, 203, 211);
-  border-bottom: 2px solid orange;
+  /* border-bottom: 2px solid orange; */
 }
 
 img {
