@@ -63,9 +63,14 @@ img {
 .author-profile-pic{
   text-align: center;
 }
+.author-profile-pic::before{
+  display: inline-block;
+  vertical-align: middle;
+}
 .author-profile-pic img{
   width: 70%;
   border-radius: 50%;
+  vertical-align: middle;
 }
 .author-name {
   margin-top: 5% 0% 0% 0%;
@@ -74,11 +79,18 @@ img {
 .author-description {
   font-size: 12px;
 }
-/* .definition {
+.definition {
   font-size: 15px;
   text-justify: distribute;
   margin: auto;
   margin-top: 5%;
   max-width: 90%;
   text-align: center;
-} */
+}
+
+.rcs-def{
+  order: 2;
+}
+.rcs-img{
+  order: 1;
+}
