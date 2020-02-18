@@ -105,3 +105,9 @@ img {
 .work-experience-header h2{
   margin: 0 auto;
 }
+.one-third h1{
+  font-size: 20px;
+}
+.one-third h2{
+  font-size: 15px;
+}

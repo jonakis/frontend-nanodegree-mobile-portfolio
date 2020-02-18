@@ -64,3 +64,9 @@
 .rcs-img{
     order: 2;
 }
+.one-third h1{
+    font-size: 25px;
+  }
+  .one-third h2{
+    font-size: 15px;
+  }
