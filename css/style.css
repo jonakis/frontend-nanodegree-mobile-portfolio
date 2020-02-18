@@ -94,3 +94,14 @@ img {
 .rcs-img{
   order: 1;
 }
+.work-experience-header{
+  margin: 0;
+  text-align: center;
+  color: rgb(182, 203, 211);
+  background-color: rgb(40, 19, 61);
+  /* background-color: rgb(78, 59, 97); */
+  padding: 0;
+}
+.work-experience-header h2{
+  margin: 0 auto;
+}
