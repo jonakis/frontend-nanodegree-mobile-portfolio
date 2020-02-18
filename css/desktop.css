@@ -1,26 +1,44 @@
-.left,
-.right {
+.half {
   width: 50%;
-  max-height: 500px;
+  padding: 0;
 }
+.quarter {
+  width: 25%;
+}
+.one-fifth {
+  width: 20%;
+}
+.four-fifth {
+  width: 80%;
+}
+.one-third {
+  width: 33.33%;
+}
+.two-third {
+  width: 66.67%;
+}
+
 .container {
   width: 90%;
 }
-.full {
-  width: 100%;
-}
+.author-profile-pic,
 .img-container {
   text-align: center;
 }
-.img-container img {
-  max-width: 60%;
+.author-profile-pic img {
+  width: 60%;
 }
+
+.img-container img {
+  width: 60%;
+}
+
 .definition {
   font-size: 25px;
   text-justify: distribute;
   margin: auto;
-  margin-top: 10%;
-  max-width: 80%;
+  margin-top: 5%;
+  max-width: 90%;
   text-align: center;
 }
 .text-left {
@@ -28,4 +46,14 @@
 }
 .text-right {
   text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.author-name {
+  margin-top: 5% 0% 0% 0%;
+  font-size: 50px;
+}
+.author-description {
+  font-size: 35px;
 }
