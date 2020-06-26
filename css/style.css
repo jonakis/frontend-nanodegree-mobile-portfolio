@@ -10,6 +10,7 @@ body {
   font-size: 12px;
   line-height: 1.61;
   font-weight: 400;
+  padding-bottom: 100px;
 }
 body,
 button,
@@ -24,13 +25,63 @@ textarea {
   color: rgb(182, 203, 211);
   /* border-bottom: 2px solid orange; */
 }
+#projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+#projects .project-container {
+  width: 80%;
+  margin: 40px auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background-color: #b6cec7;
+}
+
+#projects a {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #6b3074;
+}
+
+#projects .link-container {
+  width: 100%;
+  text-align: center;
+}
+
+#profile {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#profile button {
+  background-color: #7268a6;
+  font-size: 30px;
+  font-weight: 600;
+  color: #b6cec7;
+  outline: none;
+  min-width: 400px;
+  min-height: 70px;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
 
 img {
+  min-width: 100%;
   max-width: 100%;
 }
 .skill-container,
 .container {
-  margin: auto;
+  margin: 20px auto;
   display: -webkit-flex;
   -webkit-flex-flow: row wrap;
   display: flex;
@@ -78,7 +129,8 @@ img {
 }
 
 .author-profile-pic img {
-  width: 70%;
+  max-width: 70%;
+  min-width: 70%;
   border-radius: 50%;
   vertical-align: middle;
 }
